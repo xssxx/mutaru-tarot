@@ -4,7 +4,6 @@ import checkZodiac from "@/utils/zodiac";
 
 const Zodiac = () => {
   const [zodiac, setZodiac] = useState("-");
-  const [ascendant, setAscendant] = useState("-");
   const [birthdate, setBirthdate] = useState("");
   const [birthtime, setBirthtime] = useState("");
 
@@ -22,7 +21,7 @@ const Zodiac = () => {
   return (
     <div className="flex flex-col gap-4 bg-violet-400 h-[18rem] p-8">
       <div className="flex justify-center">
-        <h1 className="text-3xl text-white">เช็คลักษณะราศี</h1>
+        <h1 className="text-3xl text-white">เช็คราศี</h1>
       </div>
       <form className="flex flex-col items-center gap-4 text-white">
         <div className="flex gap-2">
@@ -55,7 +54,6 @@ const Zodiac = () => {
       </form>
       <div className="flex flex-col text-white items-center">
         <span>ราศีของคุณคือ {zodiac}</span>
-        <span>ลักษณะของคุณคือ {ascendant}</span>
       </div>
     </div>
   );
