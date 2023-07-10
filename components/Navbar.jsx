@@ -44,10 +44,18 @@ const Navbar = () => {
             Menu
           </MenuButton>
           <MenuList className="bg-violet-400 px-2 py-1 rounded-md text-gray-100">
-            <MenuItem>Home</MenuItem>
-            <MenuItem>About</MenuItem>
-            <MenuItem>Services</MenuItem>
-            <MenuItem>Contact</MenuItem>
+            <MenuItem>
+              <Link href="/">Home</Link>
+            </MenuItem>
+            <MenuItem>
+              <Link href="/About">About</Link>
+            </MenuItem>
+            <MenuItem>
+              <Link href="/Services">Services</Link>
+            </MenuItem>
+            <MenuItem>
+              <Link href="/Contact">Contact</Link>
+            </MenuItem>
           </MenuList>
         </Menu>
       </div>
