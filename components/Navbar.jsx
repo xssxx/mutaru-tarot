@@ -6,18 +6,17 @@ import Link from "next/link";
 import { Menu, MenuButton, MenuList, MenuItem, Button } from "@chakra-ui/react";
 
 const Navbar = () => {
-  const assetPrefix = "/mutaru-tarot";
-
   return (
     <nav className="flex justify-between px-12 h-14 py-4 shadow-xl items-center bg-violet-300">
-      <div className="text-xl">
+      <div className="text-xl flex items-center">
         <Image
-          src={`${assetPrefix}/logo.svg`}
+          src="logo.svg"
           alt="logo"
-          width={50}
-          height={50}
+          width={64}
+          height={64}
           className="rounded-full cursor-pointer"
         />
+        <h2 className="text-indigo-800">Mutaru tarot</h2>
       </div>
       {/* menu for desktop */}
       <ul className="hidden sm:flex gap-5 text-lg text-indigo-800">

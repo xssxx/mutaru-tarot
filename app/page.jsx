@@ -1,6 +1,6 @@
 import React from "react";
 import Zodiac from "@/components/Zodiac";
-import Intro from "@/components/Intro";
+import Intro from "@/components/Banner";
 
 const page = () => {
   return (
