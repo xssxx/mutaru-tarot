@@ -1,9 +1,11 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Inter, Kalam, Sriracha } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
+// const kalam = Kalam({ subsets: ["latin"], weight: "400" });
+const sriracha = Sriracha({ subsets: ["thai", "latin"], weight: "400" });
 
 export const metadata = {
   title: "Mutaru tarot",
@@ -13,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={sriracha.className}>
         <Navbar />
         {children}
         <Footer />
