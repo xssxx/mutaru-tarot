@@ -16,15 +16,15 @@ const Navbar = () => {
           height={64}
           className="rounded-full cursor-pointer"
         />
-        <h2 className="text-gray-50">Mutaru tarot</h2>
+        <p className="text-gray-50">Mutaru tarot</p>
       </div>
       {/* menu for desktop */}
       <ul className="hidden sm:flex gap-5 text-lg text-gray-50">
         <li className="cursor-pointer hover:underline">
-          <Link href="/">แพคดูดวง</Link>
+          <Link href="/Pack">แพคดูดวง</Link>
         </li>
         <li className="cursor-pointer hover:underline">
-          <Link href="/Pack">ดูดวงไพ่ยิปซี</Link>
+          <Link href="/Gypsy">ดูดวงไพ่ยิปซี</Link>
         </li>
         <li className="cursor-pointer hover:underline">
           <Link href="/Western-Astrology">โหราศาสตร์ตะวันตก</Link>
