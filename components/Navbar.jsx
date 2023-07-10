@@ -21,7 +21,7 @@ const Navbar = () => {
         </div>
       </Link>
       {/* menu for desktop */}
-      <ul className="hidden sm:flex gap-5 text-lg text-gray-50">
+      <ul className="hidden md:flex gap-5 text-lg text-gray-50">
         <li className="cursor-pointer hover:underline">
           <Link href="/Pack">แพคดูดวง</Link>
         </li>
@@ -36,7 +36,7 @@ const Navbar = () => {
         </li>
       </ul>
       {/* menu for mobile */}
-      <div className="sm:hidden">
+      <div className="md:hidden">
         <Menu>
           <MenuButton
             className="bg-violet-400 rounded-md px-2 py-1 text-gray-100"

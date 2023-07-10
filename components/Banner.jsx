@@ -12,14 +12,14 @@ const Banner = () => {
         <p className="text-3xl">ดูดวงกับพี่หมอบอม</p>
       </div>
       {/* right side */}
-      <div className="hidden sm:flex">
+      <div className="hidden sm:flex sm:w-64 md:w-72 lg:w-96">
         <Image
           src="zodiac.svg"
           alt="zodiac"
           width={376}
           height={376}
-          // className="animate-spin slow opacity-60"
-          className="opacity-60"
+          className="animate-spin slow opacity-60"
+          // className="opacity-60"
           priority
         />
       </div>
