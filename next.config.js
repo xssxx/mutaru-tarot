@@ -1,13 +1,11 @@
 /** @type {import('next').NextConfig} */
 
-const isProd = process.env.NODE_ENV === "production";
+// const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig = {
-  assetPrefix: "/mutaru-tarot",
-  basePath: "/mutaru-tarot",
   output: "export",
   reactStrictMode: true,
-  assetPrefix: isProd ? "/mutaru-tarot" : "",
+  assetPrefix: "/mutaru-tarot",
 };
 
 module.exports = nextConfig;
