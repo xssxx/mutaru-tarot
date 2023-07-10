@@ -7,11 +7,12 @@ import { Menu, MenuButton, MenuList, MenuItem, Button } from "@chakra-ui/react";
 
 const Navbar = () => {
   const assetPrefix = "/mutaru-tarot";
+
   return (
     <nav className="flex justify-between px-12 h-14 py-4 shadow-xl items-center bg-violet-300">
       <div className="text-xl">
         <Image
-          src={`${assetPrefix}/logo.jpg`}
+          src={`${assetPrefix}/logo.svg`}
           alt="logo"
           width={50}
           height={50}
