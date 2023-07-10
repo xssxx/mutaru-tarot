@@ -2,7 +2,7 @@
 2:HL["/mutaru-tarot/_next/static/media/2aaf0723e720e8b9-s.p.woff2",{"as":"font","type":"font/woff2"}]
 3:HL["/mutaru-tarot/_next/static/media/f70eba2918754ee4-s.p.woff2",{"as":"font","type":"font/woff2"}]
 4:HL["/mutaru-tarot/_next/static/css/8f0214e43330b71a.css",{"as":"style"}]
-0:["5mkk-rzQMKo3hFfA4WaoV",[[["",{"children":["Western-Astrology",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L5",[[["$","link","0",{"rel":"stylesheet","href":"/mutaru-tarot/_next/static/css/8f0214e43330b71a.css","precedence":"next"}]],["$L6",["$","meta",null,{"name":"next-size-adjust"}]]]]]]
+0:["E15q5hsLkTviZ4qRunv81",[[["",{"children":["Western-Astrology",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L5",[[["$","link","0",{"rel":"stylesheet","href":"/mutaru-tarot/_next/static/css/8f0214e43330b71a.css","precedence":"next"}]],["$L6",["$","meta",null,{"name":"next-size-adjust"}]]]]]]
 7:I{"id":"3711","chunks":["975:static/chunks/975-2f8902f79c8f5431.js","324:static/chunks/324-bb2ab1c7a6e8739d.js","185:static/chunks/app/layout-7738eaf2ab02ef72.js"],"name":"","async":false}
 8:I{"id":"3211","chunks":["272:static/chunks/webpack-cd4d08d985b89d82.js","253:static/chunks/bce60fc1-2aa849d78db8cb86.js","769:static/chunks/769-e4bec89dc22fac04.js"],"name":"","async":false}
 9:I{"id":"5767","chunks":["272:static/chunks/webpack-cd4d08d985b89d82.js","253:static/chunks/bce60fc1-2aa849d78db8cb86.js","769:static/chunks/769-e4bec89dc22fac04.js"],"name":"","async":false}
