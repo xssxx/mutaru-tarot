@@ -3,6 +3,7 @@ import Image from "next/image";
 import { SocialIcon } from "react-social-icons";
 
 const Footer = () => {
+  const assetPrefix = "/mutaru-tarot";
   return (
     <div className="fixed w-full bottom-0 py-2 border-2 bg-violet-200">
       <ul className="flex flex-col sm:flex-row justify-center gap-4 items-center sm:gap-8">

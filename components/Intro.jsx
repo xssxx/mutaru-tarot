@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 
 const Intro = () => {
+  const assetPrefix = "/mutaru-tarot";
+
   return (
     <div className="grid sm:grid-cols-2 gap-8 w-full h-[28rem] sm:justify-between items-center bg-[url('../public/background.gif')]">
       {/* left side  */}
