@@ -15,7 +15,7 @@ const Intro = () => {
       {/* right side */}
       <div className="hidden sm:flex">
         <Image
-          src="/zodiac.svg"
+          src={`${assetPrefix}/zodiac.svg`}
           alt="zodiac"
           width={400}
           height={400}

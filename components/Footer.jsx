@@ -15,7 +15,7 @@ const Footer = () => {
           <p>: mutaru_tarot</p>
         </li>
         <li className="flex items-center gap-2">
-          <Image src="/line.svg" width={29} height={29} />
+          <Image src={`${assetPrefix}/line.svg`} width={29} height={29} />
           <p>: @mutaru tarot</p>
         </li>
       </ul>

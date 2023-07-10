@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="flex justify-between px-12 h-14 py-4 shadow-xl items-center bg-violet-300">
       <div className="text-xl">
         <Image
-          src="/logo.jpg"
+          src={`${assetPrefix}/logo.jpg`}
           alt="logo"
           width={50}
           height={50}
