@@ -7,7 +7,7 @@ import { Menu, MenuButton, MenuList, MenuItem, Button } from "@chakra-ui/react";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between px-12 h-14 py-4 shadow-xl items-center bg-violet-300">
+    <nav className="flex justify-between px-12 h-14 py-4 items-center bg-[#7c69bb]">
       <div className="text-xl flex items-center">
         <Image
           src="logo.svg"
@@ -16,21 +16,21 @@ const Navbar = () => {
           height={64}
           className="rounded-full cursor-pointer"
         />
-        <h2 className="text-indigo-800">Mutaru tarot</h2>
+        <h2 className="text-gray-50">Mutaru tarot</h2>
       </div>
       {/* menu for desktop */}
-      <ul className="hidden sm:flex gap-5 text-lg text-indigo-800">
+      <ul className="hidden sm:flex gap-5 text-lg text-gray-50">
         <li className="cursor-pointer hover:underline">
-          <Link href="/">Home</Link>
+          <Link href="/">แพคดูดวง</Link>
         </li>
         <li className="cursor-pointer hover:underline">
-          <Link href="About">About</Link>
+          <Link href="/Pack">ดูดวงไพ่ยิปซี</Link>
         </li>
         <li className="cursor-pointer hover:underline">
-          <Link href="Services">Services</Link>
+          <Link href="/Western-Astrology">โหราศาสตร์ตะวันตก</Link>
         </li>
         <li className="cursor-pointer hover:underline">
-          <Link href="Contact">Contact</Link>
+          <Link href="/Trick">ทริกมู</Link>
         </li>
       </ul>
       {/* menu for mobile */}
@@ -44,16 +44,16 @@ const Navbar = () => {
           </MenuButton>
           <MenuList className="bg-violet-400 px-2 py-1 rounded-md text-gray-100">
             <MenuItem>
-              <Link href="/">Home</Link>
+              <Link href="/">แพคดูดวง</Link>
             </MenuItem>
             <MenuItem>
-              <Link href="/About">About</Link>
+              <Link href="/Gypsy">ดูดวงไพ่ยิปซี</Link>
             </MenuItem>
             <MenuItem>
-              <Link href="/Services">Services</Link>
+              <Link href="/Western-Astrology">โหราศาสตร์ตะวันตก</Link>
             </MenuItem>
             <MenuItem>
-              <Link href="/Contact">Contact</Link>
+              <Link href="/Trick">ทริกมู</Link>
             </MenuItem>
           </MenuList>
         </Menu>
