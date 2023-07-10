@@ -8,16 +8,18 @@ import { Menu, MenuButton, MenuList, MenuItem, Button } from "@chakra-ui/react";
 const Navbar = () => {
   return (
     <nav className="flex justify-between px-12 h-14 py-4 items-center bg-[#7c69bb]">
-      <div className="text-xl flex items-center">
-        <Image
-          src="logo.svg"
-          alt="logo"
-          width={64}
-          height={64}
-          className="rounded-full cursor-pointer"
-        />
-        <p className="text-gray-50">Mutaru tarot</p>
-      </div>
+      <Link href="/">
+        <div className="text-xl flex items-center">
+          <Image
+            src="logo.svg"
+            alt="logo"
+            width={64}
+            height={64}
+            className="rounded-full cursor-pointer"
+          />
+          <p className="text-gray-50 cursour-pointer">Mutaru tarot</p>
+        </div>
+      </Link>
       {/* menu for desktop */}
       <ul className="hidden sm:flex gap-5 text-lg text-gray-50">
         <li className="cursor-pointer hover:underline">
