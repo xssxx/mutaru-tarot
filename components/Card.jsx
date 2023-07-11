@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Card = (props) => {
   return (
-    <div className="flex justify-center w-fit h-fit shadow-lg bg-purple-100 rounded-lg">
+    <div className="flex justify-center w-fit h-fit shadow-lg bg-purple-200 rounded-lg">
       <Image
         src="logo.svg"
         alt="service"
