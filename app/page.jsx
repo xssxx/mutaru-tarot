@@ -1,12 +1,14 @@
 import React from "react";
 import Zodiac from "@/components/Zodiac";
-import Intro from "@/components/Banner";
+import Banner from "@/components/Banner";
+import Service from "@/components/Service";
 
 const page = () => {
   return (
     <div>
       {/* Navbar is already in layout */}
-      <Intro />
+      <Banner />
+      <Service />
       <Zodiac />
       {/* <Footer /> is in layout */}
     </div>

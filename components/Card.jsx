@@ -1,10 +1,16 @@
 import React from "react";
+import Image from "next/image";
 
 const Card = (props) => {
   return (
-    <div className="w-52 h-64 shadow-lg bg-gray-100 rounded-lg">
-      <div></div>
-      <span>ราคา {props.price}</span>
+    <div className="flex justify-center w-fit h-fit shadow-lg bg-purple-100 rounded-lg">
+      <Image
+        src="logo.svg"
+        alt="service"
+        width={300}
+        height={300}
+        priority={true}
+      />
     </div>
   );
 };
