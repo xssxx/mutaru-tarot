@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Banner = () => {
   return (
-    <div className="flex justify-center lg:grid lg:justify-between relative pt-16 lg:grid-cols-2 gap-8 w-full h-[28rem]  items-center bg-[url('../public/background.gif')]">
+    <div className="flex justify-center lg:grid lg:justify-between relative pt-16 lg:grid-cols-2 gap-8 w-full h-[28rem] items-center bg-[url('../public/background.gif')]">
       {/* left side  */}
       <div className="flex flex-col items-center text-white gap-2 z-1">
         <span className="flex text-5xl font-bold cursor-pointer text-center px-2">

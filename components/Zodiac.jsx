@@ -19,7 +19,7 @@ const Zodiac = () => {
   };
 
   return (
-    <div className="flex flex-col gap-4 bg-violet-400 h-[18rem] p-8">
+    <div className="flex flex-col gap-4 bg-gradient-to-b to-[#c494e1] from-[#7e6bbd] h-[18rem] p-8">
       <div className="flex justify-center">
         <h1 className="text-3xl text-white">เช็คราศี</h1>
       </div>

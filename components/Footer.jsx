@@ -4,11 +4,11 @@ import { SocialIcon } from "react-social-icons";
 
 const Footer = () => {
   return (
-    <div className="flex w-full bottom-0 py-2 border-2 bg-violet-200 justify-center gap-4">
+    <div className="flex w-full py-2 bg-[#c494e1] justify-center gap-4">
       <span className="flex text-indigo-800 items-center">
         &copy; 2023 | Mutaru tarot
       </span>
-      <ul className="flex flex-row justify-center gap-4 items-center sm:gap-8">
+      <ul className="flex flex-row justify-center gap-8 items-center sm:gap-8">
         <li className="flex items-center gap-2 cursor-pointer">
           <SocialIcon network="facebook" style={{ height: 25, width: 25 }} />
         </li>
