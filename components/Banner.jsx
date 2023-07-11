@@ -16,9 +16,9 @@ const Banner = () => {
         <Image
           src="zodiac.svg"
           alt="zodiac"
-          width={370}
-          height={370}
-          className="opacity-30"
+          width={365}
+          height={365}
+          className="opacity-20 md:opacity-30"
           priority
         />
       </div>

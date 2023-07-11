@@ -8,6 +8,8 @@ const sriracha = Sriracha({ subsets: ["thai", "latin"], weight: "400" });
 
 export const metadata = {
   title: "Mutaru tarot",
+  description:
+    "เว็บไซต์ดูดวง Mutaru tarot โดยพี่หมอบอม ดูไพ่ยิปซี โหราศาสตร์ตะวันตก ทริคมู รวมแพ็คดูดวง",
 };
 
 export default function RootLayout({ children }) {
