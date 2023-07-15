@@ -4,7 +4,7 @@ import { SocialIcon } from "react-social-icons";
 
 const Footer = () => {
   return (
-    <div className="flex w-full py-2 bg-[#c494e1] justify-center gap-4">
+    <div className="flex w-full py-2 bg-violet-200 justify-center gap-4">
       <span className="flex text-indigo-800 items-center">
         &copy; 2023 | Mutaru tarot
       </span>

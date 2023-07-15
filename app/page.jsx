@@ -1,5 +1,5 @@
 import React from "react";
-import Zodiac from "@/components/Zodiac";
+// import Zodiac from "@/components/Zodiac";
 import Banner from "@/components/Banner";
 import Service from "@/components/Service";
 
@@ -9,7 +9,7 @@ const page = () => {
       {/* Navbar is already in layout */}
       <Banner />
       <Service />
-      <Zodiac />
+      {/* <Zodiac /> */}
       {/* <Footer /> is in layout */}
     </div>
   );

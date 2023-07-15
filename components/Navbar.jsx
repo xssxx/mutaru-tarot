@@ -21,19 +21,29 @@ const Navbar = () => {
         </div>
       </Link>
       {/* menu for desktop */}
-      <ul className="hidden md:flex gap-5 text-lg text-gray-50">
+      <ul className="hidden md:flex gap-5 text-lg text-gray-50 z-10">
         <li className="cursor-pointer hover:underline">
-          <Link href="/Pack">แพคดูดวง</Link>
+          <Link href="/Review">รีวิวดูดวง</Link>
         </li>
-        <li className="cursor-pointer hover:underline">
-          <Link href="/Gypsy">ดูดวงไพ่ยิปซี</Link>
-        </li>
-        <li className="cursor-pointer hover:underline">
-          <Link href="/Western-Astrology">โหราศาสตร์ตะวันตก</Link>
-        </li>
-        <li className="cursor-pointer hover:underline">
-          <Link href="/Trick">ทริกมู</Link>
-        </li>
+        <Menu>
+          <MenuButton
+            className="w-52 bg-violet-400 rounded-md px-2 py-1 text-gray-100"
+            as={Button}
+          >
+            ช่องทางติดต่อ
+          </MenuButton>
+          <MenuList className="w-52 bg-violet-400 px-2 py-1 rounded-md text-gray-100">
+            <MenuItem>
+              <Link href="/Gypsy">Line</Link>
+            </MenuItem>
+            <MenuItem>
+              <Link href="/Gypsy">Facebook</Link>
+            </MenuItem>
+            <MenuItem>
+              <Link href="/Gypsy">Instagram</Link>
+            </MenuItem>
+          </MenuList>
+        </Menu>
       </ul>
       {/* menu for mobile */}
       <div className="md:hidden z-10">
@@ -46,16 +56,10 @@ const Navbar = () => {
           </MenuButton>
           <MenuList className="w-52 bg-violet-400 px-2 py-1 rounded-md text-gray-100">
             <MenuItem>
-              <Link href="/">แพคดูดวง</Link>
+              <Link href="/">รีวิวดูดวง</Link>
             </MenuItem>
             <MenuItem>
-              <Link href="/Gypsy">ดูดวงไพ่ยิปซี</Link>
-            </MenuItem>
-            <MenuItem>
-              <Link href="/Western-Astrology">โหราศาสตร์ตะวันตก</Link>
-            </MenuItem>
-            <MenuItem>
-              <Link href="/Trick">ทริกมู</Link>
+              <Link href="/Gypsy">ช่องทางติดต่อ</Link>
             </MenuItem>
           </MenuList>
         </Menu>
